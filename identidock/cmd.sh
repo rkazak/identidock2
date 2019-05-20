@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -xe
 
 if [ "$ENV" = 'DEV' ]; then
   echo "Running Development Server"
